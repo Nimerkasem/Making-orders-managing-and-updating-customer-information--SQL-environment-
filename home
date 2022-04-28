@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>orot2000</title>
+    <link rel="stylesheet" href="menu.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="background-color:black">
+
+    <ul>
+        <li style="margin-left: 500px "><a class="active" href="home.html">Home</a></li>
+        <li><a href="catalog.html">Catalog</a></li>
+        <li><a href="branch.html">Branches</a></li>
+        <li><a href="brands.html">Brands</a></li>
+        <li><a href="contact us.html">Contact Us</a></li>
+
+    </ul>
+
+    <center>
+        <table>
+            <tr>
+                <td>
+                    <p style="color: #ff9900; font-size: 30px; font-family: 'Lucida Handwriting'">Importing and marketing  </p>
+                    <p style="color: #ff9900; font-size: 30px; font-family: 'Lucida Handwriting'">all typee Custom Lighting</p>
+                </td>
+                <td>
+                    <img src="fsss.jpeg" width="80%" height="90%">
+                </td>
+            </tr>
+        </table>
+        <div style="width: 80%; height: 90%; font-size: 150%">
+            <p style="font-style: oblique; color: #ff9900">
+                Every successful design begins with the most basic and important thing: light.
+            </p>
+        </div>
+        <section style="width:80% ;height:90%">
+            <img class="mySlides" src="slide1.png"
+                 style="width:100%">
+            <img class="mySlides" src="slide2.jpg"
+                 style="width:100%">
+            <img class="mySlides" src="slide3.jpg"
+                 style="width:100%">
+        </section>
+        <div style="width: 80%; height: 90%">
+            <p style="font-style: oblique; color: #ff9900;font-size:150%">
+                Orot 2000 specializes in original and high-quality lighting designs for every need and purpose,
+                from the private client, to business clients such as architects, chains,
+                contractors and interior designers. All lighting solutions are waiting for you in one creative place!
+            </p>
+        </div>
+        <br />
+
+        <video autoplay muted loop style="width:80% ;height:90%" >
+            <source src="orot.mp4" type="video/mp4">
+        </video>
+        <div style="width: 80%; height: 90%">
+            <p style="font-style: oblique; color: #ff9900 ;font-size:150%">
+                Orot 2000 is a family company established in 1986.
+                As such, the company takes care to serve each and every customer in the most dedicated way
+                , and to adapt a wide range of lighting fixtures to any space, style and budget,
+                all with full responsibility for service quality and workmanship.
+            </p>
+        </div>
+    </center>
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 3000);
+        }
+    </script>
+    <div style="background-color: #1a1a1a; height: 200px; color: #ffebcc " >
+        <center>
+            <table>
+                <td>
+                    
+                    <br />
+                    <a>Address: Crystal 5 Nazareth Illit </a>
+                    <br />
+                    <br />
+                    <a>Phone Number: 1700-70-60-54</a>
+                    <br />
+                    <br />
+                    <br />
+                    <a>Fax:     04-6745705</a>
+                    <br />
+                    <br />
+                    <a>E-mail: w2000@barak.net.il</a>
+                </td>
+                <td>
+                    <br />
+                    <i style="font-size:24px" class="fa">&#xf015;</i>
+                    <br />
+                    <br />
+                    <i style="font-size:24px" class="fa">&#xf095;</i>
+                    <br />
+                    <br />
+                    <i style="font-size:24px" class="fa">&#xf1ac;</i>
+                    <br />
+                    <br />
+                    <i style="font-size:24px" class="fa">&#xf0e0;</i>
+                </td>
+                <td>
+                    <img src="log.png" style="margin-left:100px">
+                </td>
+            </table>
+        </center>
+    </div>
+
+
+
+
+
+</body>
+</html>
