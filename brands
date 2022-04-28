@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Brands</title>
+    <link rel="stylesheet" href="menu.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    <ul>
+        <li style="margin-left:500px"><a class="active" href="home.html">Home</a></li>
+        <li><a href="catalog.html">Catalog</a></li>
+        <li><a href="branch.html">Branches</a></li>
+        <li><a href="brands.html">Brands</a></li>
+        <li><a href="contact us.html">Contact Us</a></li>
+        <lo style="margin-left:145px "><img src="log.png"></lo>
+    </ul>
+
+    <center>
+        <table style="margin-top:50px;width:100px">
+            <tr>
+                <td><img src="AXOlight.jpg"></td>
+                <td><img src="Bukingham.jpg" /></td>
+                <td><img src="goccia.jpg" /></td>
+                <td><img src="Herner-Glas.jpg" /></td>
+                <td><img src="Studio-Italia-Design.jpg" /></td>
+
+            </tr>
+
+            <tr></tr>
+            <tr>
+                <td><img src="Leadlux.jpg" /></td>
+                <td><img src="logo.jpg" /></td>
+                <td><img src="logosat.png" /></td>
+                <td><img src="Lucente.jpg" /></td>
+                <td><img src="Luceplan.jpg" /></td>
+
+            </tr>
+            <tr>
+                <td><img src="karboxx.jpg" /></td>
+                <td><img src="Vibia.jpg" /></td>
+                <td><img src="RUGGIU.jpg" /></td>
+                <td><img src="Yamagiwas-lighting.jpg" /></td>
+                <td><img src="modoluce.jpg" /></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td><img src="neweba.jpg" /></td>
+                <td><img src="Mantra.jpg" /></td>
+                <td><img src="Martinelliluce.jpg" /></td>
+            </tr>
+
+        </table>
+    </center>
+
+    <center>
+        <ul style="background-color: aliceblue; margin-top: 50px">
+            <li><a href="https://www.axolight.it/en/" style="font-family:fantasy;font-size:20px;color:black">Axolights</a></li>
+            <li><a href="http://www.buckingham.com.tw/" style="font-family:fantasy;font-size:20px;color:black">Bukingham</a></li>
+            <li><a href="https://www.goccia.it/ITA/Home.asp" style="font-family:fantasy;font-size:20px;color:black">goccia</a></li>
+            <li><a href="https://www.glas-depot.com/index.php" style="font-family:fantasy;font-size:20px;color:black">Herner-Glas</a></li>
+            <li><a href="http://www.leadlux.com/" style="font-family:fantasy;font-size:20px;color:black">Leadlux</a></li>
+            <li><a href="http://okelilamp.com/index.php" style="font-family:fantasy;font-size:20px;color:black">OkeliLamp</a></li>
+            <li><a style="font-family:fantasy;font-size:20px;color:black">SAT</a></li>
+            <li><a style="font-family:fantasy;font-size:20px;color:black">Lucente</a></li>
+            <li><a href="https://www.karboxx.com/it/" style="font-family:fantasy;font-size:20px;color:black">karboxx</a></li>
+            <li><a href="https://www.vibia.com/ " style="font-family:fantasy;font-size:20px;color:black">Vibia</a></li>
+            <li><a href="https://www.ruggiu.com/" style="font-family:fantasy;font-size:20px;color:black">RUGGIU</a></li>
+            <li><a href="https://en.yamagiwa.co.jp/" style="font-family:fantasy;font-size:20px;color:black">Yamagiwas-lighting</a></li>
+            <li><a href="http://neweba.com/" style="font-family:fantasy;font-size:20px;color:black">neweba</a></li>
+            <li><a href="https://www.mantrailuminacion.com/" style="font-family:fantasy;font-size:20px;color:black">Mantra</a></li>
+            <li><a href="https://martinelliluce.it/it/home?showp=1" style="font-family:fantasy;font-size:20px;color:black">Martinelliluce</a></li>
+            <li><a href="https://www.modoluce.com/en/" style="font-family:fantasy;font-size:20px;color:black">modoluce</a></li>
+            <li><a href="https://www.studioitaliadesign.com/" style="font-family:fantasy;font-size:20px;color:black">Studio-Italia-Design</a></li>
+            <li>   <a href="https://www.luceplan.com/" style="font-family:fantasy;font-size:20px;color:black">Luceplan</a></li>
+        </ul>
+    </center>
+
+
+
+
+
+
+
+
+
+
+
+    <div style="background-color: #1a1a1a; height: 200px; color: #ffebcc ">
+        <center>
+            <table>
+                <td>
+
+                    <br />
+                    <a>Address: Crystal 5 Nazareth Illit </a>
+                    <br />
+                    <br />
+                    <a>Phone Number: 1700-70-60-54</a>
+                    <br />
+                    <br />
+                    <br />
+                    <a>Fax:     04-6745705</a>
+                    <br />
+                    <br />
+                    <a>E-mail: w2000@barak.net.il</a>
+                </td>
+                <td>
+                    <br />
+                    <i style="font-size:24px" class="fa">&#xf015;</i>
+                    <br />
+                    <br />
+                    <i style="font-size:24px" class="fa">&#xf095;</i>
+                    <br />
+                    <br />
+                    <i style="font-size:24px" class="fa">&#xf1ac;</i>
+                    <br />
+                    <br />
+                    <i style="font-size:24px" class="fa">&#xf0e0;</i>
+                </td>
+                <td>
+                    <img src="log.png" style="margin-left:100px">
+                </td>
+            </table>
+        </center>
+    </div>
+</body>
+</html>
