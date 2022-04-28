@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Branchs</title>
+    <link rel="stylesheet" href="menu.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+   
+    <style>
+        body {
+            font-family: "Sofia", sans-serif;
+        }
+
+        .flip-box {
+            background-color: transparent;
+            width: 300px;
+            height: 200px;
+            border: none;
+            perspective: 1000px;
+        }
+
+        .flip-box-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+        }
+
+        .flip-box:hover .flip-box-inner {
+            transform: rotateY(180deg);
+        }
+
+        .flip-box-front, .flip-box-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+        }
+
+        .flip-box-front {
+            background-color: black;
+            color: #ff9900;
+        }
+
+        .flip-box-back {
+            background-color: #ff9900;
+            color: black;
+            transform: rotateY(180deg);
+        }
+
+    </style>
+</head>
+<body style="background-color:black">
+
+    <ul>
+        <li style="margin-left:500px"><a class="active" href="home.html">Home</a></li>
+        <li><a href="catalog.html">Catalog</a></li>
+        <li><a href="branch.html">Branches</a></li>
+        <li><a href="brands.html">Brands</a></li>
+        <li><a href="contact us.html">Contact Us</a></li>
+        <lo style="margin-left:145px "><img src="log.png"></lo>
+    </ul>
+
+    <center> <h1 style="font-size: 50px; color: #ff9900">BRANCHES</h1></center>
+    <center>
+
+        <table>
+            <tr>
+                <td>
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <h2>Haifa</h2>
+                            </div>
+                            <div class="flip-box-back">
+                                <h2>
+                                    <ol>
+                                        <il>Histadrut Blvd. 90</il>
+                                        <br />
+                                        <il>04-8402520</il>
+                                        <br />
+                                        <il>10:00-20:00</il>
+                                    </ol>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <h2>Kfar Yaseef</h2>
+                            </div>
+                            <div class="flip-box-back">
+                                <h2>
+                                    <ol>
+                                        <il>main street</il>
+                                        <br />
+                                        <il>04-9961842</il>
+                                        <br />
+                                        <il>08:00-22:00</il>
+                                    </ol>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <h2>Afula </h2>
+                            </div>
+                            <div class="flip-box-back">
+                                <h2>
+                                    <ol>
+                                        <il>Ecclesiastes Zion 35 </il>
+                                        <br />
+                                        <il>04-6527071</il>
+                                        <br />
+                                        <il>12:00-18:00</il>
+                                    </ol>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <h2>Tiberias  </h2>
+                            </div>
+                            <div class="flip-box-back">
+                                <h2>
+                                    <ol>
+                                        <il>Yehuda Halevi </il>
+                                        <br />
+                                        <il>04-6722262</il>
+                                        <br />
+                                        <il>09:00-23:00</il>
+                                    </ol>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </center>
+
+
+
+
+
+
+
+
+    <div style="background-color: #1a1a1a; height: 200px; color: #ffebcc ;margin-top:100px">
+        <center>
+            <table>
+                <td>
+
+                    <br />
+                    <a>Address: Crystal 5 Nazareth Illit </a>
+                    <br />
+                    <br />
+                    <a>Phone Number: 1700-70-60-54</a>
+                    <br />
+                    <br />
+                    <br />
+                    <a>Fax:     04-6745705</a>
+                    <br />
+                    <br />
+                    <a>E-mail: w2000@barak.net.il</a>
+                </td>
+                <td>
+                    <br />
+                    <i style="font-size:24px" class="fa">&#xf015;</i>
+                    <br />
+                    <br />
+                    <i style="font-size:24px" class="fa">&#xf095;</i>
+                    <br />
+                    <br />
+                    <i style="font-size:24px" class="fa">&#xf1ac;</i>
+                    <br />
+                    <br />
+                    <i style="font-size:24px" class="fa">&#xf0e0;</i>
+                </td>
+                <td>
+                    <img src="log.png" style="margin-left:100px">
+                </td>
+            </table>
+        </center>
+    </div>
+</body>
+</html>
